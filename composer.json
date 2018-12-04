@@ -1,0 +1,14 @@
+{
+  "name": "soa-php/identifier-generator",
+  "description": "Generate identifiers in a decoupled way",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2",
+    "ramsey/uuid": "^3.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "Soa\\IdentifierGenerator\\": "src/"
+    }
+  }
+}
